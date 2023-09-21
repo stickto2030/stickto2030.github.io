@@ -54,3 +54,38 @@ h2 {
     justify-content: center;
     margin: 1rem;
 }
+
+td, th {
+    padding: 0.2rem;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+a.messenger {
+    background-image: url("messenger.ico");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+}
+
+a.fb {
+    background-image: url("facebook.ico");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+}
+
+a.twitter {
+    background-image: url("twitter.ico");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+}
