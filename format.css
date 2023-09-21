@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #f8fff0;
+    font-family: sans-serif;
+}
+
+#header {
+    background-color: #6c0;
+    text-align: center;
+    padding: 1rem;
+}
+
+#tell-them{
+    font-size: 3rem;
+}
+
+#tell-them::after{
+    content: " ";
+}
+
+#stick-to-2030 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f8fff0;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem auto 1rem;
+}
+
+#actions {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#actions>ul {
+    margin: 0;
+}
+
+.action {
+    font-size: 1.2rem;
+    margin: 0.5rem auto 0.2rem;
+}
+
+.action-info {
+    font-size: 1rem;
+    margin: 0.2rem auto 0.5rem;
+}
+
+#car-manufacturers {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
