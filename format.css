@@ -10,16 +10,7 @@ body {
     padding: 1rem;
 }
 
-#tell-them{
-    font-size: 3rem;
-}
-
-#tell-them::after{
-    content: " ";
-}
-
 #stick-to-2030 {
-    font-size: 3rem;
     font-weight: bold;
     color: #f8fff0;
 }
@@ -89,6 +80,22 @@ a.twitter {
     width: 1rem;
     height: 1rem;
     display: block;
+}
+
+@media only screen and (max-width: 35rem) {
+    #tell-them, #stick-to-2030 {
+        font-size: 2.5rem;
+        display: block;
+    }
+}
+@media only screen and (min-width: 35rem) {
+    #tell-them, #stick-to-2030 {
+        font-size: 3rem;
+    }
+
+    #tell-them::after {
+        content: " ";
+    }
 }
 
 @media only screen and (max-width: 40rem) {
