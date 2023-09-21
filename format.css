@@ -15,6 +15,10 @@ body {
     color: #f8fff0;
 }
 
+#main {
+    padding: 0 1rem;
+}
+
 h2 {
     text-align: center;
     margin: 1rem auto 1rem;
