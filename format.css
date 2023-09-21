@@ -47,6 +47,7 @@ h2 {
 .action-info {
     font-size: 1rem;
     margin: 0.2rem auto 0.5rem;
+    line-height: 1.25rem;
 }
 
 #car-manufacturers {
@@ -88,4 +89,29 @@ a.twitter {
     width: 1rem;
     height: 1rem;
     display: block;
+}
+
+@media only screen and (max-width: 40rem) {
+    a.email {
+        background-image: url("email.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 1rem;
+        height: 1rem;
+        display: block;
+    }
+    a.email>span {
+        visibility: hidden;
+    }
+    a.tel {
+        background-image: url("phone.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 1rem;
+        height: 1rem;
+        display: block;
+    }
+    a.tel>span {
+        visibility: hidden;
+    }
 }
