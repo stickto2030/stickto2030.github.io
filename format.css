@@ -110,6 +110,17 @@ a.twitter {
     a.email>span {
         visibility: hidden;
     }
+    a.form {
+        background-image: url("form.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 1rem;
+        height: 1rem;
+        display: block;
+    }
+    a.form>span {
+        visibility: hidden;
+    }
     a.tel {
         background-image: url("phone.png");
         background-size: contain;
